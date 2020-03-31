@@ -2,10 +2,6 @@ int redLed = D6;
 int yellowLed = D4;
 int greenLed = D2;
 
-bool redOn = false;
-bool yellowOn = false;
-bool greenOn = false;
-
 int webFunction(String colour)
 {
     if (colour == "red")
